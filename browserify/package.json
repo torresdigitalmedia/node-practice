@@ -1,0 +1,19 @@
+{
+  "name": "jt238",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app-js",
+  "scripts": {
+    "build": "browserify app.js -o bundle.js",
+    "watch": "watchify app.js -o bundle.js"
+  },
+  "author": "Joshua Torres",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "watchify": "^3.3.1"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
